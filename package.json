@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "my resume",
   "main": "index.js",
+  "homepage" : "https://ntig0001.github.io/responsive_resume",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Elysé Ntigirishari",
   "license": "ISC",
