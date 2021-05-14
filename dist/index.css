@@ -5,3 +5,11 @@
       margin: 0 0 0 0;
   }
 }
+
+.header{
+  background: rgb(32, 131, 61);
+}
+
+.links{
+  color: rgb(32, 131, 61);
+}
