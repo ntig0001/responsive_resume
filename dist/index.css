@@ -26,3 +26,8 @@ span{
 .info{
   background: #17344D;
 }
+
+.flex-container{
+ display: flex;
+ justify-content: space-between;
+}
