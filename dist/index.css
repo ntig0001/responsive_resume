@@ -28,6 +28,14 @@ span{
 }
 
 .flex-container{
- display: flex;
+ display:flex;
  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 13.5rem);
+    justify-content:flex-start;
+   }
 }
